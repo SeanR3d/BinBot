@@ -3,11 +3,12 @@
 ![](res/BinBot_logo3.png)        
 
 Temple University Computer Science Capstone Project team:
-[Sean Digirolamo]([https://github.com/s-digiro](https://github.com/s-digiro))
-[Sean Reddington]([https://github.com/SeanR3d](https://github.com/SeanR3d))
-[Michael Savitski]([https://github.com/MikeSavitski](https://github.com/MikeSavitski))
-[Jose Silva]([https://github.com/tuf06643](https://github.com/tuf06643))
-[Kwamina Thompson]([https://github.com/kiloz14](https://github.com/kiloz14))
+
+[Sean Digirolamo](https://github.com/s-digiro)    
+[Sean Reddington](https://github.com/SeanR3d)    
+[Michael Savitski](https://github.com/MikeSavitski)    
+[Jose Silva](https://github.com/tuf06643)    
+[Kwamina Thompson](https://github.com/kiloz14)    
 
 BinBot is an autonomous robot designed to identify and collect littered waste. The robot is built from a Raspberry Pi robot kit, which includes a camera, proximity sensor, motorized treads, and a mechanical arm. This robot is powered by an embedded Raspberry Pi 3 B+. BinBot’s on-board camera captures live-feed images which are sent to a processing server. To outsource the heavy data processing from the on-site robot; this Linux server will process the images sent by BinBot using data representations created from a trained machine learning model. Using TensorFlow and OpenCV libraries, the machine learning model will identify any pieces of waste in the image. The server will then compute properties about the waste, including the location from the robot, and generate instructions for the robot to navigate to the waste and collect it. The application will also display of the images from the processing the Pi camera, which include bounding boxes surrounding any waste identified via the machine learning model. BinBot also features an Android mobile app which provides the ability to start and stop BinBot’s waste collection process.
 
