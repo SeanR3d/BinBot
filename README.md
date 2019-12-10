@@ -23,8 +23,9 @@ BinBot is an autonomous robot designed to identify and collect littered waste. T
 - Server displays individual pictures received from BinBot
 
 #### Bugs:
-- Drops trash frequently because claw is weak and too small
-- Occasionally mistakes objects for waste when they are not waste
+- Drops waste frequently because claw is weak and too small
+- Occasionally mistakes objects for waste when they are not
+- Pi camera hangs when trying to manually adjust gain
 
 ## Modules
 
