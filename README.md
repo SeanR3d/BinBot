@@ -1,6 +1,6 @@
 # BinBot
 
-![]([https://github.com/SeanR3d/BinBot](https://github.com/SeanR3d/BinBot/BinBot_logo_2.png)        
+![](res/BinBot_logo3.png)        
 
 Temple University Computer Science Capstone Project team:
 [Sean Digirolamo]([https://github.com/s-digiro](https://github.com/s-digiro))
