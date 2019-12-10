@@ -50,6 +50,7 @@ This is the server which the BinBot Robot connects to. Images are sent from the 
 ##### Build instructions
 
 The easiest way to build and run is through the IntelliJ Idea IDE, set to use JDK 11. Create a new artifact under Project Structure -> Artifacts. Click the plus button in the top left and create a new JAR from module with dependencies. Select DemoClient as the main class and hit okay. From the main menu, build the project with Build -> Build artifacts. The built jar can be found in <project_folder>/out/artifacts/BinBot_Processing_jar
+
 Required libraries: com.google.code.gson 2.8.6, opencv 411, org.apache.commons-lang3 3.3.2, org.json 20190722, org.junit.jupiter 5.0.2, org.tensorflow 1.12.0-rs2
 
 Build using Javac compiler, JDK version 11.
