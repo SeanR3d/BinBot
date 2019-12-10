@@ -53,6 +53,11 @@ The easiest way to build and run is through the IntelliJ Idea IDE, set to use JD
 
 Required libraries: com.google.code.gson 2.8.6, opencv 411, org.apache.commons-lang3 3.3.2, org.json 20190722, org.junit.jupiter 5.0.2, org.tensorflow 1.12.0-rs2
 
+**NOTE:** Due to the large file size, the .zip of the processing server does not include the two model folders. In Please download the folders separately:
+
+[001](https://github.com/SeanR3d/BinBot/tree/master/BinBot_Processing/res/001)    
+[faster_rcnn_inception_v2_coco_2018_01_28](https://github.com/SeanR3d/BinBot/tree/master/BinBot_Processing/res/faster_rcnn_inception_v2_coco_2018_01_28)
+
 Build using Javac compiler, JDK version 11.
 
 ##### Running
